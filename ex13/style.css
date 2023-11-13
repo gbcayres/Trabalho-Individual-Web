@@ -1,0 +1,51 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#arvore {
+  width: 80%;
+}
+
+.maca {
+  width: 70px;
+  position: absolute;
+  cursor: pointer;
+}
+
+#maca1 {
+  top: 200px;
+  right: 800px;
+}
+
+#maca2 {
+  top: 400px;
+  right: 1200px;
+}
+
+#maca3 {
+  top: 500px;
+  right: 1400px;
+}
+
+#maca4 {
+  top: 100px;
+  right: 1000px;
+}
+
+#maca5 {
+  top: 450px;
+  right: 350px;
+}
+
+#maca6 {
+  top: 350px;
+  right: 750px;
+}
+
+.removido {
+  display: none;
+}
