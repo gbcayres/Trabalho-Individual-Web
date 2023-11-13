@@ -1,6 +1,7 @@
 .pagina {
   width: 100%;
   height: 100vh;
+  background-color: white;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -18,6 +19,8 @@
   font-weight: bold;
   border: none;
   transition: all 0.3s;
+  background-color: rgb(3, 24, 34);
+  color: white;
 }
 
 .btn:hover {
@@ -26,15 +29,6 @@
 
 .pagina-darkmode {
   background-color: rgb(3, 24, 34);
-}
-
-.pagina-lightmode {
-  background-color: white;
-}
-
-.btn-lightmode {
-  background-color: rgb(3, 24, 34);
-  color: white;
 }
 
 .btn-darkmode {
